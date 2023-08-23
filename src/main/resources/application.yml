@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: brs-eureka-server
+
+  config:
+    import: configserver:http://localhost:8071
+  profiles:
+    active: dev
+

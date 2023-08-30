@@ -1,0 +1,8 @@
+
+spring:
+  application:
+    name: brs-eureka-server
+
+  config:
+    import: configserver:http://config-server:8071
+

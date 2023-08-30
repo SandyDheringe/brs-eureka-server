@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.brseurekaserver</groupId>
     <artifactId>brs-eureka-server</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>brs-eureka-server</name>
     <description>brs-eureka-server</description>
     <properties>

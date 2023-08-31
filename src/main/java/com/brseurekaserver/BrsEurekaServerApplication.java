@@ -14,7 +14,7 @@ public class BrsEurekaServerApplication {
 //        SpringApplication.run(BrsEurekaServerApplication.class, args);
 
         new SpringApplicationBuilder()
-                .profiles("dev")
+                .profiles("prod")
                 .sources(BrsEurekaServerApplication.class)
                 .run(args);
     }
